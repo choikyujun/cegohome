@@ -1,1 +1,5 @@
+.DS_Store
+홈페이지개발이미지/
+*.pdf
+node_modules/
 .vercel
