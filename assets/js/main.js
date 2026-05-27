@@ -160,8 +160,8 @@ document.addEventListener('DOMContentLoaded', () => {
             sendSMS()
           ]);
           if (res.ok) {
-            submitBtn.textContent = '✅ 전송 완료!';
-            alert(`✅ 견적 문의가 접수되었습니다!\n\n이름: ${name}\n연락처: ${phone}\n\n빠른 시일 내에 연락드리겠습니다.\n감사합니다! 🙏`);
+            submitBtn.textContent = '전송 완료!';
+            alert(`견적 문의가 접수되었습니다!\n\n이름: ${name}\n연락처: ${phone}\n\n빠른 시일 내에 연락드리겠습니다.\n감사합니다!`);
             quoteForm.reset();
           } else {
             throw new Error('전송 실패');
@@ -169,14 +169,14 @@ document.addEventListener('DOMContentLoaded', () => {
         } catch {
           alert('전송 중 오류가 발생했습니다. 전화(031-947-1648)로 문의해 주세요.');
           submitBtn.disabled = false;
-          submitBtn.textContent = '📋 견적 요청 제출하기';
+          submitBtn.textContent = '견적 요청 제출하기';
         }
       } else {
         await sendSMS();
-        alert(`✅ 견적 문의가 접수되었습니다!\n\n이름: ${name}\n연락처: ${phone}\n\n빠른 시일 내에 연락드리겠습니다.\n감사합니다! 🙏`);
+        alert(`견적 문의가 접수되었습니다!\n\n이름: ${name}\n연락처: ${phone}\n\n빠른 시일 내에 연락드리겠습니다.\n감사합니다!`);
         quoteForm.reset();
         submitBtn.disabled = false;
-        submitBtn.textContent = '📋 견적 요청 제출하기';
+        submitBtn.textContent = '견적 요청 제출하기';
       }
     });
   }

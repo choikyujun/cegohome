@@ -556,9 +556,14 @@ section {
 }
 
 .feature-icon {
-  font-size: 3rem;
+  width: 64px;
+  height: 64px;
+  background: var(--navy);
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
   margin-bottom: 20px;
-  line-height: 1;
 }
 
 .feature-card h3 {
@@ -736,9 +741,14 @@ section {
 }
 
 .about-feature-item .icon {
-  font-size: 1.6rem;
+  width: 48px;
+  height: 48px;
+  background: var(--light-bg);
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
   flex-shrink: 0;
-  margin-top: 2px;
 }
 
 .about-feature-item h4 {
@@ -841,7 +851,6 @@ section {
 
 .gallery-item-overlay span {
   color: var(--white);
-  font-size: 2rem;
   opacity: 0;
   transition: opacity var(--transition);
 }
@@ -898,7 +907,9 @@ section {
 .cta-phone:hover { opacity: 0.85; }
 
 .cta-phone-icon {
-  font-size: 1.5rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
   animation: ring 2s ease infinite;
 }
 
@@ -1263,7 +1274,13 @@ section {
 }
 
 .advantage-icon {
-  font-size: 2.8rem;
+  width: 64px;
+  height: 64px;
+  background: var(--navy);
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
   margin-bottom: 16px;
 }
 
@@ -1404,7 +1421,13 @@ textarea.form-control {
 }
 
 .contact-icon {
-  font-size: 1.5rem;
+  width: 44px;
+  height: 44px;
+  background: rgba(255,255,255,0.12);
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
   flex-shrink: 0;
 }
 
