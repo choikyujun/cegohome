@@ -1,257 +1,184 @@
 <!DOCTYPE html>
 <html lang="ko">
 <head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover">
+  <title>세탁컨설팅 | CEGO 쎄고 세탁고수</title>
+  <meta name="description" content="CEGO 쎄고 세탁고수 세탁컨설팅 — 창업컨설팅, CEGOFC 프랜차이즈, 창업교육신청. 세탁업 전문가의 1:1 맞춤 컨설팅.">
+  <meta name="theme-color" content="#ffffff">
   <link rel="icon" type="image/png" href="images/favicon.png">
   <link rel="apple-touch-icon" href="images/favicon.png">
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <meta name="description" content="CEGO 쎄고 세탁고수 세탁컨설팅 — 창업컨설팅, CEGOFC 프랜차이즈, 창업교육신청. 세탁업 전문가의 1:1 맞춤 컨설팅.">
-  <title>세탁컨설팅 | CEGO 쎄고 세탁고수</title>
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Sans+KR:wght@400;500;700&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="assets/css/style.css">
 </head>
 <body>
-
-  <!-- ===== 헤더 ===== -->
-  <header class="header" role="banner">
-    <div class="header-inner">
-      <a href="index.html" class="header-logo" aria-label="CEGO 쎄고 세탁고수 홈으로">
-        <img src="images/cego-logo-transparent.png" alt="CEGO 쎄고 세탁고수 로고">
+  <header class="header">
+    <div class="header-halo" aria-hidden="true"></div>
+    <div class="wrap header-bar">
+      <a href="index.html" class="brand" aria-label="CEGO 쎄고 세탁고수 홈">
+        <img src="images/cego-logo-transparent.png" alt="CEGO 쎄고 세탁고수" width="102" height="34">
+        <span class="brand-sep" aria-hidden="true"></span>
+        <span class="brand-word">B2B Laundry</span>
       </a>
-      <nav class="nav-desktop" role="navigation" aria-label="주요 메뉴">
-        <a href="index.html">홈</a>
-        <a href="consulting.html" class="active">세탁컨설팅</a>
-        <a href="machines.html">기계구매</a>
-        <a href="detergent.html">세탁세제</a>
-        <a href="quote.html">견적요청</a>
+      <nav class="gnb" aria-label="주요 메뉴">
+        <a href="index.html#service" data-pages="index.html">세탁 서비스</a>
+        <a href="consulting.html" data-pages="consulting.html">세탁컨설팅</a>
+        <a href="machines.html" data-pages="machines.html detergent.html">기계·세제</a>
+        <a href="index.html#about" data-pages="">회사소개</a>
+        <a href="quote.html" data-pages="quote.html">고객지원</a>
       </nav>
-      <a href="quote.html" class="btn btn-orange header-cta">견적 문의</a>
-      <button class="hamburger" aria-label="메뉴 열기" aria-expanded="false" aria-controls="navMobile">
-        <span></span><span></span><span></span>
-      </button>
+      <div class="header-right">
+        <a href="quote.html" class="pillbtn">견적 요청</a>
+        <button class="burger" type="button" aria-label="메뉴 열기" aria-expanded="false" aria-controls="mnav"><span></span><span></span><span></span></button>
+      </div>
     </div>
-    <nav class="nav-mobile" id="navMobile" role="navigation" aria-label="모바일 메뉴">
-      <a href="index.html"><svg style="width:16px;height:16px;vertical-align:-3px;margin-right:4px" viewBox="0 0 24 24" fill="currentColor" xmlns="http://www.w3.org/2000/svg"><path d="M11.47 3.84a.75.75 0 011.06 0l8.69 8.69a.75.75 0 101.06-1.06l-8.689-8.69a2.25 2.25 0 00-3.182 0l-8.69 8.69a.75.75 0 001.061 1.06l8.69-8.69z"/><path d="M12 5.432l8.159 8.159c.03.03.06.058.091.086v6.198c0 1.035-.84 1.875-1.875 1.875H15a.75.75 0 01-.75-.75v-4.5a.75.75 0 00-.75-.75h-3a.75.75 0 00-.75.75V21a.75.75 0 01-.75.75H5.625a1.875 1.875 0 01-1.875-1.875v-6.198a2.29 2.29 0 00.091-.086L12 5.43z"/></svg>홈</a>
-      <a href="consulting.html"><svg style="width:16px;height:16px;vertical-align:-3px;margin-right:4px" viewBox="0 0 24 24" fill="currentColor" xmlns="http://www.w3.org/2000/svg"><path d="M12 .75a8.25 8.25 0 00-4.135 15.39c.686.398 1.115 1.008 1.134 1.623a.75.75 0 00.577.706c.352.083.71.148 1.074.195.323.041.6-.218.6-.544v-4.661a6.714 6.714 0 01-.937-.171.75.75 0 11.374-1.453 5.261 5.261 0 002.626 0 .75.75 0 11.374 1.452 6.712 6.712 0 01-.937.172v4.66c0 .327.277.586.6.545.364-.047.722-.112 1.074-.195a.75.75 0 00.577-.706c.02-.615.448-1.225 1.134-1.623A8.25 8.25 0 0012 .75z"/></svg>세탁컨설팅</a>
-      <a href="machines.html"><svg style="width:16px;height:16px;vertical-align:-3px;margin-right:4px" viewBox="0 0 24 24" fill="currentColor" xmlns="http://www.w3.org/2000/svg"><path fill-rule="evenodd" d="M11.078 2.25c-.917 0-1.699.663-1.85 1.567L9.05 4.889c-.02.12-.115.26-.297.348a7.493 7.493 0 00-.986.57c-.166.115-.334.126-.45.083L6.3 5.508a1.875 1.875 0 00-2.282.819l-.922 1.597a1.875 1.875 0 00.432 2.385l.84.692c.095.078.17.229.154.43a7.598 7.598 0 000 1.139c.015.2-.059.352-.153.43l-.841.692a1.875 1.875 0 00-.432 2.385l.922 1.597a1.875 1.875 0 002.282.818l1.019-.382c.115-.043.283-.031.45.082.312.214.641.405.985.57.182.088.277.228.297.35l.178 1.071c.151.904.933 1.567 1.85 1.567h1.844c.916 0 1.699-.663 1.85-1.567l.178-1.072c.02-.12.114-.26.297-.349.344-.165.673-.356.985-.57.167-.114.335-.125.45-.082l1.02.382a1.875 1.875 0 002.28-.819l.923-1.597a1.875 1.875 0 00-.432-2.385l-.84-.692c-.095-.078-.17-.229-.154-.43a7.614 7.614 0 000-1.139c-.016-.2.059-.352.153-.43l.84-.692c.708-.582.891-1.59.433-2.385l-.922-1.597a1.875 1.875 0 00-2.282-.818l-1.02.382c-.114.043-.282.031-.449-.083a7.49 7.49 0 00-.985-.57c-.183-.087-.277-.227-.297-.348l-.179-1.072a1.875 1.875 0 00-1.85-1.567h-1.843zM12 15.75a3.75 3.75 0 100-7.5 3.75 3.75 0 000 7.5z" clip-rule="evenodd"/></svg>기계구매</a>
-      <a href="detergent.html"><svg style="width:16px;height:16px;vertical-align:-3px;margin-right:4px" viewBox="0 0 24 24" fill="currentColor" xmlns="http://www.w3.org/2000/svg"><path fill-rule="evenodd" d="M10.5 3.798v5.02a3 3 0 01-.879 2.121l-2.377 2.377a9.845 9.845 0 015.091 1.013 8.315 8.315 0 005.713.636l.285-.071-3.954-3.955a3 3 0 01-.879-2.121v-5.02a23.614 23.614 0 00-3 0zm4.5.138a.75.75 0 00.093-1.495A24.837 24.837 0 0012 2.25a25.048 25.048 0 00-3.093.191A.75.75 0 009 3.936v4.882a1.5 1.5 0 01-.44 1.06l-6.293 6.294c-1.62 1.621-.903 4.475 1.471 4.88 2.686.46 5.447.698 8.262.698 2.816 0 5.576-.239 8.262-.697 2.373-.406 3.092-3.26 1.47-4.881L15.44 9.879A1.5 1.5 0 0115 8.818V4.936z" clip-rule="evenodd"/></svg>세탁세제</a>
-      <a href="quote.html"><svg style="width:16px;height:16px;vertical-align:-3px;margin-right:4px" viewBox="0 0 24 24" fill="currentColor" xmlns="http://www.w3.org/2000/svg"><path fill-rule="evenodd" d="M7.502 6h7.128A3.375 3.375 0 0118 9.375v9.375a3 3 0 003-3V6.108c0-1.505-1.125-2.811-2.664-2.94a48.972 48.972 0 00-.673-.05A3 3 0 0015 1.5h-1.5a3 3 0 00-2.663 1.618c-.225.015-.45.032-.673.05C8.662 3.295 7.554 4.542 7.502 6zM13.5 3A1.5 1.5 0 0112 4.5h4.5A1.5 1.5 0 0115 3h-1.5z" clip-rule="evenodd"/><path fill-rule="evenodd" d="M3 9.375C3 8.339 3.84 7.5 4.875 7.5h9.75c1.036 0 1.875.84 1.875 1.875v11.25c0 1.035-.84 1.875-1.875 1.875h-9.75A1.875 1.875 0 013 20.625V9.375zM6 12a.75.75 0 01.75-.75h.008a.75.75 0 01.75.75v.008a.75.75 0 01-.75.75H6.75a.75.75 0 01-.75-.75V12zm2.25 0a.75.75 0 01.75-.75h3.75a.75.75 0 010 1.5H9a.75.75 0 01-.75-.75zM6 15a.75.75 0 01.75-.75h.008a.75.75 0 01.75.75v.008a.75.75 0 01-.75.75H6.75a.75.75 0 01-.75-.75V15zm2.25 0a.75.75 0 01.75-.75h3.75a.75.75 0 010 1.5H9a.75.75 0 01-.75-.75zM6 18a.75.75 0 01.75-.75h.008a.75.75 0 01.75.75v.008a.75.75 0 01-.75.75H6.75a.75.75 0 01-.75-.75V18zm2.25 0a.75.75 0 01.75-.75h3.75a.75.75 0 010 1.5H9a.75.75 0 01-.75-.75z" clip-rule="evenodd"/></svg>견적요청</a>
-      <div class="nav-cta-mobile">
-        <a href="tel:031-947-1648"><svg style="width:16px;height:16px;vertical-align:-3px;margin-right:4px" viewBox="0 0 24 24" fill="currentColor" xmlns="http://www.w3.org/2000/svg"><path fill-rule="evenodd" d="M1.5 4.5a3 3 0 013-3h1.372c.86 0 1.61.586 1.819 1.42l1.105 4.423a1.875 1.875 0 01-.694 1.955l-1.293.97c-.135.101-.164.249-.126.352a11.285 11.285 0 006.697 6.697c.103.038.25.009.352-.126l.97-1.293a1.875 1.875 0 011.955-.694l4.423 1.105c.834.209 1.42.959 1.42 1.82V19.5a3 3 0 01-3 3h-2.25C8.552 22.5 1.5 15.448 1.5 6.75V4.5z" clip-rule="evenodd"/></svg>031-947-1648 전화 문의</a>
+    <div class="mega" aria-hidden="false">
+      <div class="wrap mega-cols">
+        <div class="mega-col"><p>맡기면 끝나는 B2B 세탁</p><a href="index.html#service">B2B 위탁세탁</a><a href="index.html#flow">세탁 공정</a><a href="index.html#why">왜 쎄고인가</a></div>
+        <div class="mega-col"><p>세탁업을 시작한다면</p><a href="consulting.html#startup">창업 컨설팅</a><a href="consulting.html#franchise">CEGOFC 프랜차이즈</a><a href="consulting.html#education">창업 교육</a><a href="consulting.html#process">진행 과정</a></div>
+        <div class="mega-col"><p>검증된 설비와 세제</p><a href="machines.html#washer">업소용 세탁기</a><a href="machines.html#dryer">업소용 건조기</a><a href="machines.html#ironer">다림기 · 폴더</a><a href="detergent.html">세제 쎄고PLUS<span class=new>NEW</span></a></div>
+        <div class="mega-col"><p>쎄고를 알아본 뒤</p><a href="index.html#about">쎄고 소개</a><a href="index.html#growth">숫자로 보는 쎄고</a><a href="index.html#gallery">세탁공장 현장</a></div>
+        <div class="mega-col"><p>언제든 물어보세요</p><a href="quote.html">무료 견적 요청</a><a href="tel:031-947-1648">전화 상담 031-947-1648</a><a href="sms:010-5104-1648">문자 상담 010-5104-1648</a></div>
+      </div>
+    </div>
+    <nav class="mnav" id="mnav" hidden aria-label="모바일 메뉴">
+      <div class="wrap">
+      <div class="mnav-group"><h5>세탁 서비스</h5><p>맡기면 끝나는 B2B 세탁</p><a href="index.html#service">B2B 위탁세탁</a><a href="index.html#flow">세탁 공정</a><a href="index.html#why">왜 쎄고인가</a></div>
+      <div class="mnav-group"><h5>세탁컨설팅</h5><p>세탁업을 시작한다면</p><a href="consulting.html#startup">창업 컨설팅</a><a href="consulting.html#franchise">CEGOFC 프랜차이즈</a><a href="consulting.html#education">창업 교육</a><a href="consulting.html#process">진행 과정</a></div>
+      <div class="mnav-group"><h5>기계·세제</h5><p>검증된 설비와 세제</p><a href="machines.html#washer">업소용 세탁기</a><a href="machines.html#dryer">업소용 건조기</a><a href="machines.html#ironer">다림기 · 폴더</a><a href="detergent.html">세제 쎄고PLUS</a></div>
+      <div class="mnav-group"><h5>회사소개</h5><p>쎄고를 알아본 뒤</p><a href="index.html#about">쎄고 소개</a><a href="index.html#growth">숫자로 보는 쎄고</a><a href="index.html#gallery">세탁공장 현장</a></div>
+      <div class="mnav-group"><h5>고객지원</h5><p>언제든 물어보세요</p><a href="quote.html">무료 견적 요청</a><a href="tel:031-947-1648">전화 상담 031-947-1648</a><a href="sms:010-5104-1648">문자 상담 010-5104-1648</a></div>
+        <div class="mnav-foot">
+          <a href="quote.html" class="btn btn-primary btn-block">무료 견적 요청하기</a>
+          <small>031-947-1648 · 평일 09:00~18:00</small>
+        </div>
       </div>
     </nav>
   </header>
 
   <main>
-
-    <!-- ===== 페이지 히어로 ===== -->
-    <section class="page-hero" aria-label="세탁컨설팅 페이지 소개">
-      <img class="page-hero-bg" src="images/consulting-3031678_1920.jpg" alt="세탁 창업 컨설팅 배경 이미지">
-      <div class="page-hero-overlay"></div>
-      <div class="container">
-        <div class="page-hero-content">
-          <h1>세탁 창업, 쎄고가 함께합니다</h1>
-          <p>신규 창업부터 인수 상담, 프랜차이즈, 교육까지<br>세탁업의 모든 단계를 전문가가 직접 안내합니다.</p>
+    <section class="fhero">
+      <img src="images/flow/consulting-hero.jpg" alt="세탁 창업 상담 장면" fetchpriority="high">
+      <div class="wrap">
+        <div class="fhero-body">
+          <span class="eyebrow">Consulting</span>
+          <h1 class="h-xl">세탁 창업,<br><em>쎄고</em>가 함께합니다</h1>
+          <p class="lead">신규 창업부터 인수 상담, 프랜차이즈, 교육까지 세탁업의 모든 단계를 전문가가 직접 안내합니다.</p>
+          <div class="btn-row"><a href="quote.html?type=세탁컨설팅" class="btn btn-primary">창업 상담 신청</a><a href="tel:031-947-1648" class="btn btn-hero-ghost">031-947-1648</a></div>
         </div>
       </div>
+      <button class="scroll-cue" type="button" aria-label="아래로 스크롤">SCROLL</button>
     </section>
 
-    <!-- ===== 컨설팅 서비스 3가지 ===== -->
-    <section class="consulting-services" id="consulting" aria-label="컨설팅 서비스">
-      <div class="container">
-        <div class="section-header fade-in">
-          <span class="section-label">CONSULTING</span>
-          <h2 class="section-title">쎄고 컨설팅 서비스</h2>
-          <p class="section-desc">세탁업 전문가의 20년 노하우를 바탕으로 맞춤형 컨설팅을 제공합니다</p>
+    <section class="band band-surface" id="consulting">
+      <div class="wrap">
+        <div class="sec-head">
+          <span class="eyebrow">Service</span>
+          <h2 class="h-l">세 가지 방법으로 시작을 돕습니다</h2>
+          <p class="lead">세탁업 전문가의 20년 노하우를 바탕으로 맞춤형 컨설팅을 제공합니다.</p>
         </div>
-        <div class="consulting-grid">
-
-          <!-- 창업 컨설팅 -->
-          <div class="consulting-card fade-in delay-1" id="startup">
-            <div class="consulting-card-img">
-              <img src="images/agree-1728448_1920.jpg" alt="세탁 창업 컨설팅 상담 사진">
+        <div class="grid g3">
+          <article class="biz rv" id="startup" style="cursor:default">
+            <div class="biz-img"><img src="images/flow/consulting-startup.jpg" alt="세탁 창업 컨설팅 상담" loading="lazy"></div>
+            <div class="biz-body">
+              <span class="tag">01 창업 컨설팅</span>
+              <h3>창업 컨설팅</h3>
+              <p>신규 창업부터 기존 세탁소 인수까지, 쎄고 전문가가 처음부터 끝까지 함께합니다.</p>
+              <ul class="ticks"><li>상권·입지 분석 및 추천</li><li>초기 투자비용 산출</li><li>신규 창업 / 인수 상담</li><li>설비 선택 및 배치 컨설팅</li><li>수익성 시뮬레이션 제공</li></ul>
             </div>
-            <div class="consulting-card-body">
-              <div class="consulting-card-num">01</div>
-              <h3>창업컨설팅</h3>
-              <p>세탁 창업을 결심하셨나요? 신규 창업부터 기존 세탁소 인수까지, 쎄고 전문가가 처음부터 끝까지 함께합니다.</p>
-              <ul>
-                <li>상권·입지 분석 및 추천</li>
-                <li>초기 투자비용 산출</li>
-                <li>신규 창업 / 인수 상담</li>
-                <li>설비 선택 및 배치 컨설팅</li>
-                <li>수익성 시뮬레이션 제공</li>
-              </ul>
-            </div>
-          </div>
-
-          <!-- CEGOFC 프랜차이즈 -->
-          <div class="consulting-card fade-in delay-2" id="franchise">
-            <div class="consulting-card-img">
-              <img src="images/business-1031754_1920.jpg" alt="CEGOFC 프랜차이즈 비즈니스 파트너십">
-            </div>
-            <div class="consulting-card-body">
-              <div class="consulting-card-num">02</div>
+          </article>
+          <article class="biz rv" id="franchise" style="cursor:default">
+            <div class="biz-img"><img src="images/flow/consulting-franchise.jpg" alt="CEGOFC 프랜차이즈 세탁 매장" loading="lazy"></div>
+            <div class="biz-body">
+              <span class="tag">02 프랜차이즈</span>
               <h3>CEGOFC 프랜차이즈</h3>
-              <p>쎄고의 브랜드와 시스템을 그대로 — 검증된 세탁 프랜차이즈로 리스크를 최소화하고 수익을 극대화하세요.</p>
-              <ul>
-                <li>브랜드 라이선스 제공</li>
-                <li>표준 운영 매뉴얼 (SOP)</li>
-                <li>원부자재 공동 구매 혜택</li>
-                <li>전산 시스템 지원</li>
-                <li>지속적인 본사 지원</li>
-              </ul>
+              <p>쎄고의 브랜드와 시스템을 그대로 — 검증된 세탁 프랜차이즈로 리스크를 줄이세요.</p>
+              <ul class="ticks"><li>브랜드 라이선스 제공</li><li>표준 운영 매뉴얼 (SOP)</li><li>원부자재 공동 구매 혜택</li><li>전산 시스템 지원</li><li>지속적인 본사 지원</li></ul>
             </div>
-          </div>
-
-          <!-- 창업교육신청 -->
-          <div class="consulting-card fade-in delay-3" id="education">
-            <div class="consulting-card-img">
-              <img src="images/laundromat-315374_1280.jpg" alt="세탁 창업 교육 실습 현장">
+          </article>
+          <article class="biz rv" id="education" style="cursor:default">
+            <div class="biz-img"><img src="images/flow/consulting-education.jpg" alt="세탁공장 현장 교육" loading="lazy"></div>
+            <div class="biz-body">
+              <span class="tag">03 창업 교육</span>
+              <h3>창업 교육</h3>
+              <p>실제 세탁공장에서 진행하는 현장 교육 — 이론부터 실습까지 운영에 필요한 모든 것을 배웁니다.</p>
+              <ul class="ticks"><li>세탁 원리·약품 교육</li><li>기계 조작·관리 실습</li><li>고객 응대·가격 책정</li><li>품질 관리 체크리스트</li><li>수료 후 사후 관리 지원</li></ul>
             </div>
-            <div class="consulting-card-body">
-              <div class="consulting-card-num">03</div>
-              <h3>창업교육신청</h3>
-              <p>실제 세탁공장에서 진행되는 현장 교육 — 이론부터 실습까지, 세탁업 운영에 필요한 모든 것을 배웁니다.</p>
-              <ul>
-                <li>세탁 원리·약품 교육</li>
-                <li>기계 조작·관리 실습</li>
-                <li>고객 응대·가격 책정</li>
-                <li>품질 관리 체크리스트</li>
-                <li>수료 후 사후 관리 지원</li>
-              </ul>
-            </div>
-          </div>
-
+          </article>
         </div>
       </div>
     </section>
 
-    <!-- ===== 컨설팅 프로세스 ===== -->
-    <section class="process" aria-label="컨설팅 진행 프로세스">
-      <div class="container">
-        <div class="section-header fade-in">
-          <span class="section-label">PROCESS</span>
-          <h2 class="section-title">컨설팅 진행 과정</h2>
-          <p class="section-desc">체계적인 6단계 프로세스로 창업 성공을 함께 만들어갑니다</p>
+    <section class="band" id="process">
+      <div class="wrap">
+        <div class="sec-head">
+          <span class="eyebrow">Process</span>
+          <h2 class="h-l">컨설팅 진행 과정</h2>
+          <p class="lead">6단계 프로세스로 창업 성공을 함께 만들어 갑니다.</p>
         </div>
-        <div class="process-steps">
-          <div class="process-step fade-in delay-1">
-            <div class="process-step-num">1</div>
-            <div>
-              <h4>문의·상담</h4>
-              <p>전화 또는 온라인으로 초기 상담 진행</p>
-            </div>
-          </div>
-          <div class="process-step fade-in delay-2">
-            <div class="process-step-num">2</div>
-            <div>
-              <h4>현장조사</h4>
-              <p>입지·상권·시설 현황 전문가 방문 분석</p>
-            </div>
-          </div>
-          <div class="process-step fade-in delay-3">
-            <div class="process-step-num">3</div>
-            <div>
-              <h4>설계·계획</h4>
-              <p>설비 배치·투자비용·수익 계획 수립</p>
-            </div>
-          </div>
-          <div class="process-step fade-in delay-1">
-            <div class="process-step-num">4</div>
-            <div>
-              <h4>설치·시공</h4>
-              <p>기계 납품 및 설치, 전기·배관 시공</p>
-            </div>
-          </div>
-          <div class="process-step fade-in delay-2">
-            <div class="process-step-num">5</div>
-            <div>
-              <h4>운영교육</h4>
-              <p>기계 조작·세탁 기술·고객 응대 교육</p>
-            </div>
-          </div>
-          <div class="process-step fade-in delay-3">
-            <div class="process-step-num">6</div>
-            <div>
-              <h4>사후관리</h4>
-              <p>개업 후 지속적인 기술·운영 지원</p>
-            </div>
-          </div>
-        </div>
+        <ol class="steps" style="--n:6">
+          <li class="step rv"><i>1</i><h4>문의·상담</h4><p>전화 또는 온라인으로 초기 상담</p></li>
+          <li class="step rv"><i>2</i><h4>현장조사</h4><p>입지·상권·시설 현황 방문 분석</p></li>
+          <li class="step rv"><i>3</i><h4>설계·계획</h4><p>설비 배치·투자비용·수익 계획 수립</p></li>
+          <li class="step rv"><i>4</i><h4>설치·시공</h4><p>기계 납품·설치, 전기·배관 시공</p></li>
+          <li class="step rv"><i>5</i><h4>운영교육</h4><p>기계 조작·세탁 기술·고객 응대 교육</p></li>
+          <li class="step rv"><i>6</i><h4>사후관리</h4><p>개업 후 지속적인 기술·운영 지원</p></li>
+        </ol>
       </div>
     </section>
 
-    <!-- ===== CTA 배너 ===== -->
-    <section class="cta-banner" aria-label="컨설팅 상담 문의">
-      <div class="container">
-        <h2 class="fade-in">창업 상담, 지금 바로 시작하세요</h2>
-        <p class="fade-in delay-1">전화 한 통으로 전문가와 1:1 맞춤 상담을 받아보세요</p>
-        <div class="cta-banner-btns fade-in delay-2">
-          <a href="tel:031-947-1648" class="cta-phone">
-            <span class="cta-phone-icon"><svg width="24" height="24" viewBox="0 0 24 24" fill="currentColor" xmlns="http://www.w3.org/2000/svg"><path fill-rule="evenodd" d="M1.5 4.5a3 3 0 013-3h1.372c.86 0 1.61.586 1.819 1.42l1.105 4.423a1.875 1.875 0 01-.694 1.955l-1.293.97c-.135.101-.164.249-.126.352a11.285 11.285 0 006.697 6.697c.103.038.25.009.352-.126l.97-1.293a1.875 1.875 0 011.955-.694l4.423 1.105c.834.209 1.42.959 1.42 1.82V19.5a3 3 0 01-3 3h-2.25C8.552 22.5 1.5 15.448 1.5 6.75V4.5z" clip-rule="evenodd"/></svg></span>
-            031-947-1648
-          </a>
-          <a href="quote.html" class="btn btn-white" style="margin-left: 16px;">온라인 견적 신청 →</a>
-        </div>
+    <section class="band band-navy">
+      <div class="wrap cta rv">
+        <div><h2>창업 상담, 지금 바로 시작하세요</h2><p>전화 한 통으로 전문가와 1:1 맞춤 상담을 받아 보세요.</p></div>
+        <div class="btn-row"><a href="tel:031-947-1648" class="btn btn-ghost">031-947-1648</a><a href="quote.html?type=세탁컨설팅" class="btn btn-primary">온라인 상담 신청</a></div>
       </div>
     </section>
 
   </main>
 
-  <!-- ===== 푸터 ===== -->
-  <footer class="footer" role="contentinfo">
-    <div class="container">
+  <footer class="footer">
+    <div class="wrap">
       <div class="footer-grid">
-        <div class="footer-col">
-          <div class="footer-logo-wrap">
-            <img src="images/cego-black-log.jpg" alt="CEGO 쎄고 세탁고수 화이트 로고">
-          </div>
-          <p class="footer-desc">세탁은 쎄고에 맡기시고 운영에 힘쓰십시오!<br>호텔·연수원·헬스장·기숙사·관공서·대량 세탁업 B2B 전문 세탁 파트너.</p>
-          <div class="footer-contact">
-            <a href="tel:031-947-1648"><svg width="20" height="20" viewBox="0 0 24 24" fill="currentColor" xmlns="http://www.w3.org/2000/svg"><path fill-rule="evenodd" d="M1.5 4.5a3 3 0 013-3h1.372c.86 0 1.61.586 1.819 1.42l1.105 4.423a1.875 1.875 0 01-.694 1.955l-1.293.97c-.135.101-.164.249-.126.352a11.285 11.285 0 006.697 6.697c.103.038.25.009.352-.126l.97-1.293a1.875 1.875 0 011.955-.694l4.423 1.105c.834.209 1.42.959 1.42 1.82V19.5a3 3 0 01-3 3h-2.25C8.552 22.5 1.5 15.448 1.5 6.75V4.5z" clip-rule="evenodd"/></svg>031-947-1648</a>
-            <a href="tel:010-5104-1648"><svg width="20" height="20" viewBox="0 0 24 24" fill="currentColor" xmlns="http://www.w3.org/2000/svg"><path d="M10.5 18.75a.75.75 0 000 1.5h3a.75.75 0 000-1.5h-3z"/><path fill-rule="evenodd" d="M8.625.75A3.375 3.375 0 005.25 4.125v15.75a3.375 3.375 0 003.375 3.375h6.75a3.375 3.375 0 003.375-3.375V4.125A3.375 3.375 0 0015.375.75h-6.75zM7.5 4.125C7.5 3.504 8.004 3 8.625 3H9.75v.375c0 .621.504 1.125 1.125 1.125h2.25c.621 0 1.125-.504 1.125-1.125V3h1.125c.621 0 1.125.504 1.125 1.125v15.75c0 .621-.504 1.125-1.125 1.125h-6.75A1.125 1.125 0 017.5 19.875V4.125z" clip-rule="evenodd"/></svg>010-5104-1648</a>
+        <div>
+          <a href="index.html" class="brand" aria-label="CEGO 쎄고 세탁고수 홈">
+            <img src="images/cego-logo-transparent.png" alt="CEGO 쎄고 세탁고수" width="90" height="30">
+            <span class="brand-sep" aria-hidden="true"></span>
+            <span class="brand-word">B2B Laundry</span>
+          </a>
+          <div class="footer-info">
+            <span>쎄고 세탁고수 · CEGO</span>
+            <span>경기도 파주시 · 배달: 서울·경기·인천</span>
+            <span>Tel <a href="tel:031-947-1648">031-947-1648</a> · Mobile <a href="tel:010-5104-1648">010-5104-1648</a></span>
+            <span><a href="mailto:100bear@daum.net">100bear@daum.net</a></span>
           </div>
         </div>
-        <div class="footer-col">
+        <div>
           <h4>서비스</h4>
           <ul>
+            <li><a href="index.html#service">B2B 위탁세탁</a></li>
             <li><a href="consulting.html">세탁컨설팅</a></li>
             <li><a href="consulting.html#franchise">CEGOFC 프랜차이즈</a></li>
-            <li><a href="consulting.html#education">창업교육신청</a></li>
             <li><a href="machines.html">기계구매</a></li>
+            <li><a href="detergent.html">세탁세제 쎄고PLUS</a></li>
           </ul>
         </div>
-        <div class="footer-col">
-          <h4>기계 카테고리</h4>
-          <ul>
-            <li><a href="machines.html#washer">세탁기</a></li>
-            <li><a href="machines.html#dryer">건조기</a></li>
-            <li><a href="machines.html#ironer">다림기</a></li>
-            <li><a href="machines.html#transfer">고속폴더</a></li>
-          </ul>
-        </div>
-        <div class="footer-col">
-          <h4>빠른 문의</h4>
+        <div>
+          <h4>문의</h4>
           <ul>
             <li><a href="quote.html">무료 견적 요청</a></li>
             <li><a href="tel:031-947-1648">전화 상담</a></li>
+            <li>평일 09:00~18:00 · 토 09:00~14:00</li>
           </ul>
-          <div style="margin-top: 20px; font-size: 0.85rem; color: rgba(255,255,255,0.5); line-height: 1.8;">
-            <div><svg style="width:14px;height:14px;vertical-align:-2px;margin-right:4px;opacity:0.5" viewBox="0 0 24 24" fill="currentColor" xmlns="http://www.w3.org/2000/svg"><path fill-rule="evenodd" d="M11.54 22.351l.07.04.028.016a.76.76 0 00.723 0l.028-.015.071-.041a16.975 16.975 0 001.144-.742 19.58 19.58 0 002.683-2.282c1.944-2.003 3.5-4.697 3.5-8.327a8 8 0 10-16 0c0 3.63 1.556 6.324 3.5 8.327a19.58 19.58 0 002.683 2.282 16.975 16.975 0 001.144.742zM12 13.5a3 3 0 100-6 3 3 0 000 6z" clip-rule="evenodd"/></svg>경기도 파주시</div>
-            <div><svg style="width:14px;height:14px;vertical-align:-2px;margin-right:4px;opacity:0.5" viewBox="0 0 24 24" fill="currentColor" xmlns="http://www.w3.org/2000/svg"><path fill-rule="evenodd" d="M12 2.25c-5.385 0-9.75 4.365-9.75 9.75s4.365 9.75 9.75 9.75 9.75-4.365 9.75-9.75S17.385 2.25 12 2.25zM12.75 6a.75.75 0 00-1.5 0v6c0 .414.336.75.75.75h4.5a.75.75 0 000-1.5h-3.75V6z" clip-rule="evenodd"/></svg>평일 09:00 – 18:00</div>
-            <div><svg style="width:14px;height:14px;vertical-align:-2px;margin-right:4px;opacity:0.5" viewBox="0 0 24 24" fill="currentColor" xmlns="http://www.w3.org/2000/svg"><path d="M3.375 4.5C2.339 4.5 1.5 5.34 1.5 6.375V13.5h12V6.375c0-1.036-.84-1.875-1.875-1.875h-8.25zM13.5 15h-12v2.625c0 1.035.84 1.875 1.875 1.875h.375a3 3 0 116 0h3a.75.75 0 00.75-.75V15z"/><path d="M8.25 19.5a1.5 1.5 0 10-3 0 1.5 1.5 0 003 0zM15.75 6.75a.75.75 0 00-.75.75v11.25c0 .087.015.17.042.248a3 3 0 015.958.464c.853-.175 1.522-.935 1.464-1.883a18.659 18.659 0 00-3.732-10.104 1.837 1.837 0 00-1.47-.725H15.75z"/><path d="M19.5 19.5a1.5 1.5 0 10-3 0 1.5 1.5 0 003 0z"/></svg>배달: 서울·경기·인천</div>
-          </div>
         </div>
       </div>
-    </div>
-    <div class="footer-bottom">
-      <p>© 2024 CEGO 쎄고 세탁고수. All rights reserved. | <a href="http://www.cego.co.kr" style="color: rgba(255,255,255,0.4);">www.cego.co.kr</a></p>
+      <div class="footer-bottom">
+        <span>© 2026 CEGO 쎄고 세탁고수. All rights reserved.</span>
+        <span>세탁은 쎄고에 맡기시고 운영에 힘쓰십시오</span>
+      </div>
     </div>
   </footer>
-
   <script src="assets/js/main.js"></script>
 </body>
 </html>
